@@ -1,0 +1,50 @@
+# 💹 Crypto Portfolio Optimization Dashboard
+
+An interactive crypto portfolio optimization tool built with **Python** and **Streamlit**, leveraging real-time data from the CoinGecko API. This app enables users to analyze, visualize, and forecast cryptocurrency performance to make smarter investment decisions.
+
+## 🚀 Key Features
+
+- 📊 Real-time price data via [CoinGecko API](https://api.coingecko.com/api/v3/)
+- 📈 Time series forecasting using **Facebook Prophet**
+- 🧠 Portfolio optimization and clustering with **scikit-learn**
+- 📎 Custom PDF report generation using **fpdf**
+- 📉 Interactive visualizations with **Plotly** and **Seaborn**
+- ⚙️ Simple, intuitive web interface using **Streamlit**
+
+## 🔗 API Used
+
+```plaintext
+https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart?vs_currency=usd&days={days}
+
+🛠 Packages Used
+streamlit
+pandas
+numpy
+requests
+prophet
+scikit-learn
+matplotlib
+seaborn
+plotly
+fpdf
+
+
+📁 Project Structure
+crypto-portfolio-optimization/
+│
+├── app.py                   # Main Streamlit app
+├── utils/                   # Helper functions and API integrations
+├── requirements.txt         # Required Python packages
+├── reports/                 # Exported PDF reports
+├── README.md
+
+🧠 Skills Applied
+Financial data analysis
+
+Time series forecasting
+
+Data visualization & dashboarding
+
+API integration
+
+Python scripting & modular code structure
